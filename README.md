@@ -3,12 +3,7 @@ Google Maps ranks local results largely by prominence, which is heavily review-c
 
 1. Bayesian rating — trusts a score in proportion to evidence:
 
-Place	                  Google avg	        Reviews        FanFlow bayesian	    Chain?
-Taco Bell	                 3.7	               2,500	        3.71	               ✓
-Chipotle	                 3.9	               1,800	        3.91	               ✓
-Mom & pop taqueria	       4.8	                34	          4.48	               ✗
-Beloved local	             4.7	                210	          4.62	               ✗
-Thin 5★	                 5.0	                 6	          4.30	               ✗
+
 The 34-review taqueria (4.48) beats Taco Bell (3.71) — and a thin 5.0★/6-review place (4.30) does not top it. So it neither buries the low-review gem nor over-trusts the thin 5-star. That's the core differentiator vs Maps.
 
 2. Chain detection + penalty. is_chain flags known brands (and any name at 3+ locations), applies an authenticity penalty, and the planner actively drops chains when real local options exist — the opposite of prominence ranking.
