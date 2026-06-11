@@ -1,0 +1,36 @@
+[
+ {
+  "day_id": "replay_2024_niners_home_1",
+  "label": "ILLUSTRATIVE 49ers home game (afternoon kickoff) — synthetic flow curve shaped like a typical stadium event day",
+  "kickoff_local": "2024-10-20T13:25:00-07:00",
+  "source": "illustrative_seed (replace with Caltrans PeMS US-101/I-280 loop flow export)",
+  "illustrative": true,
+  "observed_hourly": {
+   "15:00": 62,
+   "16:00": 88,
+   "17:00": 100,
+   "18:00": 71,
+   "19:00": 55,
+   "20:00": 64,
+   "21:00": 48,
+   "22:00": 30
+  }
+ },
+ {
+  "day_id": "replay_2024_niners_home_2",
+  "label": "ILLUSTRATIVE 49ers home game (evening kickoff) — synthetic curve, later wave",
+  "kickoff_local": "2024-12-12T17:15:00-08:00",
+  "source": "illustrative_seed (replace with 511.org transit ridership CSV)",
+  "illustrative": true,
+  "observed_hourly": {
+   "15:00": 40,
+   "16:00": 58,
+   "17:00": 83,
+   "18:00": 95,
+   "19:00": 60,
+   "20:00": 52,
+   "21:00": 70,
+   "22:00": 55
+  }
+ }
+]

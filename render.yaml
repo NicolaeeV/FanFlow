@@ -1,0 +1,39 @@
+# Render Blueprint — MatchDay Local / FanFlow backend (FastAPI)
+# One persistent web service = the 13k-business cache survives between requests and the
+# visitor chat answers in well under 10s after the first warm call. Render's free tier runs
+# a long-lived process (unlike serverless), so no cold reload-everything per request.
+#
+# To deploy: push this repo to GitHub, then on https://render.com → New → Blueprint,
+# point at the repo. Render reads this file. Fill the secret env vars (marked sync:false)
+# from your local backend/.env, then Apply.
+services:
+  - type: web
+    name: matchday-local-api
+    runtime: python
+    plan: free
+    region: oregon
+    # Lean install: the visitor chat + all dashboard/intel endpoints need NO google-adk/MCP.
+    # (Swap to backend/requirements.txt if you also want the owner agent — see DEPLOY.md.)
+    buildCommand: "pip install -r backend/requirements-deploy.txt"
+    # Bind Render's injected $PORT. cd into backend so `app.server:app` resolves.
+    startCommand: "cd backend && uvicorn app.server:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: MONGODB_URI          # paste from backend/.env — Atlas SRV connection string
+        sync: false
+      - key: MONGODB_DB
+        value: matchday_local
+      - key: ATLAS_VECTOR_INDEX
+        value: businesses_vector
+      # CORS: leave "*" for the demo (open API, read-only data, no auth). To lock to your
+      # Vercel domain instead, set ALLOWED_ORIGIN to that URL (CORS already allows it +
+      # http://localhost:3000). "*" is honest for a public demo — note it to judges.
+      - key: ALLOWED_ORIGIN
+        value: "*"
+      # ── Owner agent (OPTIONAL) — only needed if you switch buildCommand to the full
+      # requirements.txt. The visitor chat ignores these. ──
+      - key: GOOGLE_API_KEY       # paste from backend/.env (AI Studio key) — optional
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.1-flash-lite

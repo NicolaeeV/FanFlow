@@ -1,0 +1,2221 @@
+[
+ {
+  "_id": "biz_sofa_taqueria",
+  "name": "SoFA Street Taquería (illustrative)",
+  "category": "mexican_restaurant",
+  "secondary_categories": [
+   "taqueria",
+   "bar"
+  ],
+  "lat": 37.332,
+  "lon": -121.8863,
+  "neighborhood_id": "downtown_san_jose",
+  "rating": 4.6,
+  "reviews": 932,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "11:00",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 22,
+   "attributes": [
+    "wifi",
+    "outdoor_seating",
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/sofa-taqueria",
+  "chain": false,
+  "local_tags": [
+   "family_owned",
+   "local_favorite"
+  ],
+  "languages_supported": [
+   "en",
+   "es"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "milk",
+    "wheat_gluten"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "self_reported"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_alameda_sports_bar",
+  "name": "The Alameda Sports Bar (illustrative)",
+  "category": "sports_bar",
+  "secondary_categories": [
+   "bar",
+   "american_restaurant"
+  ],
+  "lat": 37.3389,
+  "lon": -121.905,
+  "neighborhood_id": "downtown_san_jose",
+  "rating": 4.3,
+  "reviews": 511,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "15:00",
+    "close": "23:00"
+   },
+   "sat": {
+    "open": "12:00",
+    "close": "23:00"
+   },
+   "mon": {
+    "open": "12:00",
+    "close": "23:00"
+   },
+   "tue": {
+    "open": "12:00",
+    "close": "23:00"
+   },
+   "wed": {
+    "open": "12:00",
+    "close": "23:00"
+   },
+   "thu": {
+    "open": "12:00",
+    "close": "23:00"
+   },
+   "sun": {
+    "open": "12:00",
+    "close": "23:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": false,
+   "has_reservation_link": false,
+   "photos": 9,
+   "attributes": [
+    "wifi",
+    "live_sports"
+   ],
+   "missing": [
+    "menu_link",
+    "special_hours",
+    "reservation_link"
+   ]
+  },
+  "website": "https://example.com/alameda-sports-bar",
+  "chain": false,
+  "local_tags": [
+   "local_favorite"
+  ],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "soy"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unknown"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_santana_row_trattoria",
+  "name": "Santana Row Trattoria (illustrative)",
+  "category": "italian_restaurant",
+  "secondary_categories": [
+   "wine_bar"
+  ],
+  "lat": 37.321,
+  "lon": -121.9482,
+  "neighborhood_id": "santana_row",
+  "rating": 4.7,
+  "reviews": 1284,
+  "price_level": 3,
+  "hours": {
+   "fri": {
+    "open": "11:30",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "11:30",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "11:30",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "11:30",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "11:30",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "11:30",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "11:30",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": true,
+   "photos": 31,
+   "attributes": [
+    "wifi",
+    "outdoor_seating",
+    "full_bar"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/santana-row-trattoria",
+  "chain": false,
+  "local_tags": [
+   "local_favorite"
+  ],
+  "languages_supported": [
+   "en",
+   "it"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "eggs"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "menu_published"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_mercado_corner_store",
+  "name": "El Mercado Corner Store (illustrative)",
+  "category": "convenience_store",
+  "secondary_categories": [
+   "grocery",
+   "liquor_store"
+  ],
+  "lat": 37.3352,
+  "lon": -121.8901,
+  "neighborhood_id": "downtown_san_jose",
+  "rating": 4.1,
+  "reviews": 203,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "07:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "07:00",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "07:00",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "07:00",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "07:00",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "07:00",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "07:00",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": false,
+   "has_reservation_link": false,
+   "photos": 4,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "photos",
+    "special_hours"
+   ]
+  },
+  "website": "",
+  "chain": false,
+  "local_tags": [
+   "family_owned"
+  ],
+  "languages_supported": [
+   "en",
+   "es"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [],
+   "contains_allergens": [],
+   "allergen_verified_safe": [],
+   "cross_contact": "packaged_goods",
+   "info_status": "packaged_labeled"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_great_america_parking",
+  "name": "Great America Park & Ride Lot 7 (illustrative)",
+  "category": "parking",
+  "secondary_categories": [
+   "parking_lot"
+  ],
+  "lat": 37.399,
+  "lon": -121.976,
+  "neighborhood_id": "santa_clara_central",
+  "rating": 3.9,
+  "reviews": 88,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "06:00",
+    "close": "23:59"
+   },
+   "sat": {
+    "open": "06:00",
+    "close": "23:59"
+   },
+   "mon": {
+    "open": "06:00",
+    "close": "23:59"
+   },
+   "tue": {
+    "open": "06:00",
+    "close": "23:59"
+   },
+   "wed": {
+    "open": "06:00",
+    "close": "23:59"
+   },
+   "thu": {
+    "open": "06:00",
+    "close": "23:59"
+   },
+   "sun": {
+    "open": "06:00",
+    "close": "23:59"
+   }
+  },
+  "gbp": {
+   "has_menu_link": false,
+   "has_reservation_link": false,
+   "photos": 2,
+   "attributes": [
+    "accessible"
+   ],
+   "missing": [
+    "reservation_link",
+    "photos"
+   ]
+  },
+  "website": "https://example.com/great-america-parking",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_calle_cafe",
+  "name": "Calle Coffee & Pan Dulce (illustrative)",
+  "category": "cafe",
+  "secondary_categories": [
+   "bakery",
+   "coffee_shop"
+  ],
+  "lat": 37.3301,
+  "lon": -121.888,
+  "neighborhood_id": "downtown_san_jose",
+  "rating": 4.8,
+  "reviews": 640,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "06:30",
+    "close": "18:00"
+   },
+   "sat": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "mon": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "tue": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "wed": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "thu": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "18:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 18,
+   "attributes": [
+    "wifi",
+    "takeout",
+    "outdoor_seating"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/calle-cafe",
+  "chain": false,
+  "local_tags": [
+   "family_owned",
+   "local_favorite",
+   "cultural"
+  ],
+  "languages_supported": [
+   "en",
+   "es"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "eggs",
+    "tree_nuts"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "self_reported"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_santa_clara_cantina",
+  "name": "Mission City Cantina (illustrative)",
+  "category": "mexican_restaurant",
+  "secondary_categories": [
+   "bar",
+   "tequila_bar"
+  ],
+  "lat": 37.3541,
+  "lon": -121.9552,
+  "neighborhood_id": "santa_clara_central",
+  "rating": 4.4,
+  "reviews": 727,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "11:00",
+    "close": "23:00"
+   },
+   "mon": {
+    "open": "11:00",
+    "close": "23:00"
+   },
+   "tue": {
+    "open": "11:00",
+    "close": "23:00"
+   },
+   "wed": {
+    "open": "11:00",
+    "close": "23:00"
+   },
+   "thu": {
+    "open": "11:00",
+    "close": "23:00"
+   },
+   "sun": {
+    "open": "11:00",
+    "close": "23:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": true,
+   "photos": 26,
+   "attributes": [
+    "wifi",
+    "full_bar",
+    "outdoor_seating"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/mission-city-cantina",
+  "chain": false,
+  "local_tags": [
+   "local_favorite"
+  ],
+  "languages_supported": [
+   "en",
+   "es"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [
+    "vegetarian",
+    "vegan"
+   ],
+   "contains_allergens": [
+    "milk",
+    "wheat_gluten"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "menu_published"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_pho_paseo",
+  "name": "Paseo Phở House (illustrative)",
+  "category": "vietnamese_restaurant",
+  "secondary_categories": [
+   "noodle_shop"
+  ],
+  "lat": 37.3361,
+  "lon": -121.8898,
+  "neighborhood_id": "downtown_san_jose",
+  "rating": 4.5,
+  "reviews": 845,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "sat": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "mon": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "tue": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "wed": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "thu": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "sun": {
+    "open": "10:00",
+    "close": "21:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": false,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout",
+    "wifi"
+   ],
+   "missing": [
+    "menu_link",
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/paseo-pho",
+  "chain": false,
+  "local_tags": [
+   "family_owned",
+   "cultural"
+  ],
+  "languages_supported": [
+   "en",
+   "vi"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [
+    "vegetarian",
+    "vegan"
+   ],
+   "contains_allergens": [
+    "fish",
+    "shellfish",
+    "soy",
+    "peanuts"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "self_reported"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_lupes_deli",
+  "name": "Lupe's Deli & Sandwiches (illustrative)",
+  "category": "sandwich_shop",
+  "secondary_categories": [
+   "deli",
+   "mexican_restaurant"
+  ],
+  "lat": 37.3344,
+  "lon": -121.8875,
+  "neighborhood_id": "downtown_san_jose",
+  "rating": 4.7,
+  "reviews": 138,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "sat": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "mon": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "tue": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "wed": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "thu": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "20:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": false,
+   "has_reservation_link": false,
+   "photos": 6,
+   "attributes": [
+    "takeout",
+    "cash_only"
+   ],
+   "missing": [
+    "menu_link",
+    "photos",
+    "special_hours"
+   ]
+  },
+  "website": "",
+  "chain": false,
+  "local_tags": [
+   "family_owned",
+   "local_favorite",
+   "hidden"
+  ],
+  "languages_supported": [
+   "en",
+   "es"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unknown"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_stadium_burger_chain",
+  "name": "Stadium Burger Co. (national chain, illustrative)",
+  "category": "fast_food_restaurant",
+  "secondary_categories": [
+   "burger_restaurant"
+  ],
+  "lat": 37.401,
+  "lon": -121.971,
+  "neighborhood_id": "santa_clara_central",
+  "rating": 4.0,
+  "reviews": 5210,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "10:00",
+    "close": "23:00"
+   },
+   "sat": {
+    "open": "10:00",
+    "close": "23:00"
+   },
+   "mon": {
+    "open": "10:00",
+    "close": "23:00"
+   },
+   "tue": {
+    "open": "10:00",
+    "close": "23:00"
+   },
+   "wed": {
+    "open": "10:00",
+    "close": "23:00"
+   },
+   "thu": {
+    "open": "10:00",
+    "close": "23:00"
+   },
+   "sun": {
+    "open": "10:00",
+    "close": "23:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 40,
+   "attributes": [
+    "wifi",
+    "drive_through"
+   ],
+   "missing": []
+  },
+  "website": "https://example.com/stadium-burger",
+  "chain": true,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "soy",
+    "sesame",
+    "eggs"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "shared_fryer",
+   "info_status": "menu_published"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_closed_cafe",
+  "name": "Old Town Café (permanently closed, illustrative)",
+  "category": "cafe",
+  "secondary_categories": [
+   "coffee_shop"
+  ],
+  "lat": 37.334,
+  "lon": -121.889,
+  "neighborhood_id": "downtown_san_jose",
+  "rating": 4.5,
+  "reviews": 410,
+  "price_level": 1,
+  "hours": {},
+  "gbp": {
+   "has_menu_link": false,
+   "has_reservation_link": false,
+   "photos": 8,
+   "attributes": [],
+   "missing": []
+  },
+  "website": "",
+  "chain": false,
+  "local_tags": [
+   "local_favorite"
+  ],
+  "languages_supported": [
+   "en",
+   "es"
+  ],
+  "business_status": "closed",
+  "verification_status": "verified",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unknown"
+  },
+  "owner_uid": "user_demo",
+  "source": "curated_seed",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_sc_franklin_deli",
+  "name": "Franklin Street Deli (illustrative)",
+  "category": "sandwich_shop",
+  "secondary_categories": [
+   "deli"
+  ],
+  "lat": 37.353,
+  "lon": -121.951,
+  "neighborhood_id": "santa_clara_central",
+  "rating": 4.4,
+  "reviews": 180,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "09:00",
+    "close": "21:00"
+   },
+   "sat": {
+    "open": "09:00",
+    "close": "21:00"
+   },
+   "mon": {
+    "open": "09:00",
+    "close": "21:00"
+   },
+   "tue": {
+    "open": "09:00",
+    "close": "21:00"
+   },
+   "wed": {
+    "open": "09:00",
+    "close": "21:00"
+   },
+   "thu": {
+    "open": "09:00",
+    "close": "21:00"
+   },
+   "sun": {
+    "open": "09:00",
+    "close": "21:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_sc_franklin_deli",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "soy"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_sc_tasman_cafe",
+  "name": "Tasman Corner Cafe (illustrative)",
+  "category": "cafe",
+  "secondary_categories": [
+   "coffee_shop"
+  ],
+  "lat": 37.3895,
+  "lon": -121.976,
+  "neighborhood_id": "santa_clara_central",
+  "rating": 4.3,
+  "reviews": 140,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "sat": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "mon": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "tue": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "wed": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "thu": {
+    "open": "07:00",
+    "close": "18:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "18:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_sc_tasman_cafe",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "eggs"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_sc_coffee_chain",
+  "name": "West Coast Coffee Co. (illustrative)",
+  "category": "coffee_shop",
+  "secondary_categories": [
+   "cafe"
+  ],
+  "lat": 37.399,
+  "lon": -121.971,
+  "neighborhood_id": "santa_clara_central",
+  "rating": 4.0,
+  "reviews": 2600,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "06:00",
+    "close": "21:00"
+   },
+   "sat": {
+    "open": "06:00",
+    "close": "21:00"
+   },
+   "mon": {
+    "open": "06:00",
+    "close": "21:00"
+   },
+   "tue": {
+    "open": "06:00",
+    "close": "21:00"
+   },
+   "wed": {
+    "open": "06:00",
+    "close": "21:00"
+   },
+   "thu": {
+    "open": "06:00",
+    "close": "21:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_sc_coffee_chain",
+  "chain": true,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian",
+    "vegan"
+   ],
+   "contains_allergens": [
+    "milk",
+    "soy",
+    "wheat_gluten"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_jt_tea_cafe",
+  "name": "Japantown Tea & Bakery (illustrative)",
+  "category": "bakery",
+  "secondary_categories": [
+   "cafe"
+  ],
+  "lat": 37.3489,
+  "lon": -121.8945,
+  "neighborhood_id": "japantown_san_jose",
+  "rating": 4.6,
+  "reviews": 210,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "sat": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "mon": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "tue": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "wed": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "thu": {
+    "open": "08:00",
+    "close": "20:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "20:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_jt_tea_cafe",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "eggs",
+    "soy",
+    "tree_nuts"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_jt_grill",
+  "name": "Jackson Street Grill (illustrative)",
+  "category": "american_restaurant",
+  "secondary_categories": [
+   "bar"
+  ],
+  "lat": 37.3495,
+  "lon": -121.893,
+  "neighborhood_id": "japantown_san_jose",
+  "rating": 4.4,
+  "reviews": 330,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "11:00",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_jt_grill",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "soy",
+    "eggs"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_sv_murphy_cantina",
+  "name": "Murphy Ave Cantina (illustrative)",
+  "category": "mexican_restaurant",
+  "secondary_categories": [
+   "taqueria"
+  ],
+  "lat": 37.3775,
+  "lon": -122.0305,
+  "neighborhood_id": "sunnyvale_downtown",
+  "rating": 4.5,
+  "reviews": 420,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "11:00",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_sv_murphy_cantina",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_sv_taproom",
+  "name": "Sunnyvale Taproom (illustrative)",
+  "category": "sports_bar",
+  "secondary_categories": [
+   "bar"
+  ],
+  "lat": 37.3788,
+  "lon": -122.0312,
+  "neighborhood_id": "sunnyvale_downtown",
+  "rating": 4.3,
+  "reviews": 260,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "12:00",
+    "close": "24:00"
+   },
+   "sat": {
+    "open": "12:00",
+    "close": "24:00"
+   },
+   "mon": {
+    "open": "12:00",
+    "close": "24:00"
+   },
+   "tue": {
+    "open": "12:00",
+    "close": "24:00"
+   },
+   "wed": {
+    "open": "12:00",
+    "close": "24:00"
+   },
+   "thu": {
+    "open": "12:00",
+    "close": "24:00"
+   },
+   "sun": {
+    "open": "12:00",
+    "close": "24:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_sv_taproom",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [],
+   "contains_allergens": [
+    "wheat_gluten",
+    "soy",
+    "milk"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_mv_castro_trattoria",
+  "name": "Castro Street Trattoria (illustrative)",
+  "category": "italian_restaurant",
+  "secondary_categories": [],
+  "lat": 37.394,
+  "lon": -122.08,
+  "neighborhood_id": "mountain_view_castro",
+  "rating": 4.5,
+  "reviews": 510,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "11:00",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_mv_castro_trattoria",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "eggs"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_mv_cafe",
+  "name": "Castro Corner Coffee (illustrative)",
+  "category": "coffee_shop",
+  "secondary_categories": [
+   "cafe"
+  ],
+  "lat": 37.395,
+  "lon": -122.079,
+  "neighborhood_id": "mountain_view_castro",
+  "rating": 4.4,
+  "reviews": 190,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "07:00",
+    "close": "19:00"
+   },
+   "sat": {
+    "open": "07:00",
+    "close": "19:00"
+   },
+   "mon": {
+    "open": "07:00",
+    "close": "19:00"
+   },
+   "tue": {
+    "open": "07:00",
+    "close": "19:00"
+   },
+   "wed": {
+    "open": "07:00",
+    "close": "19:00"
+   },
+   "thu": {
+    "open": "07:00",
+    "close": "19:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "19:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_mv_cafe",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian",
+    "vegan"
+   ],
+   "contains_allergens": [
+    "milk",
+    "soy",
+    "wheat_gluten"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_pa_univ_mexican",
+  "name": "University Ave Taqueria (illustrative)",
+  "category": "taqueria",
+  "secondary_categories": [
+   "mexican_restaurant"
+  ],
+  "lat": 37.4445,
+  "lon": -122.1615,
+  "neighborhood_id": "palo_alto_university",
+  "rating": 4.4,
+  "reviews": 300,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "10:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "10:00",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "10:00",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "10:00",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "10:00",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "10:00",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "10:00",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_pa_univ_mexican",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_pa_cafe",
+  "name": "Stanford Side Cafe (illustrative)",
+  "category": "cafe",
+  "secondary_categories": [
+   "coffee_shop",
+   "bakery"
+  ],
+  "lat": 37.443,
+  "lon": -122.162,
+  "neighborhood_id": "palo_alto_university",
+  "rating": 4.6,
+  "reviews": 240,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "sat": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "mon": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "tue": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "wed": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "thu": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "20:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_pa_cafe",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian",
+    "vegan"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "eggs",
+    "tree_nuts"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_rwc_downtown_american",
+  "name": "Courthouse Square Kitchen (illustrative)",
+  "category": "american_restaurant",
+  "secondary_categories": [],
+  "lat": 37.486,
+  "lon": -122.23,
+  "neighborhood_id": "redwood_city_downtown",
+  "rating": 4.3,
+  "reviews": 280,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sat": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "mon": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "tue": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "wed": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "thu": {
+    "open": "11:00",
+    "close": "22:00"
+   },
+   "sun": {
+    "open": "11:00",
+    "close": "22:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_rwc_downtown_american",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "soy",
+    "eggs"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_fremont_viet",
+  "name": "Centerville Pho House (illustrative)",
+  "category": "vietnamese_restaurant",
+  "secondary_categories": [
+   "noodle_house"
+  ],
+  "lat": 37.558,
+  "lon": -121.9875,
+  "neighborhood_id": "fremont_centerville",
+  "rating": 4.5,
+  "reviews": 360,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "sat": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "mon": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "tue": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "wed": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "thu": {
+    "open": "10:00",
+    "close": "21:00"
+   },
+   "sun": {
+    "open": "10:00",
+    "close": "21:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_fremont_viet",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "peanuts",
+    "tree_nuts",
+    "soy",
+    "fish",
+    "sesame",
+    "wheat_gluten"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_sf_mission_taqueria",
+  "name": "Mission District Taqueria (illustrative)",
+  "category": "taqueria",
+  "secondary_categories": [
+   "mexican_restaurant"
+  ],
+  "lat": 37.76,
+  "lon": -122.419,
+  "neighborhood_id": "san_francisco_downtown",
+  "rating": 4.7,
+  "reviews": 1900,
+  "price_level": 1,
+  "hours": {
+   "fri": {
+    "open": "09:00",
+    "close": "23:00"
+   },
+   "sat": {
+    "open": "09:00",
+    "close": "23:00"
+   },
+   "mon": {
+    "open": "09:00",
+    "close": "23:00"
+   },
+   "tue": {
+    "open": "09:00",
+    "close": "23:00"
+   },
+   "wed": {
+    "open": "09:00",
+    "close": "23:00"
+   },
+   "thu": {
+    "open": "09:00",
+    "close": "23:00"
+   },
+   "sun": {
+    "open": "09:00",
+    "close": "23:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_sf_mission_taqueria",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en",
+   "es"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_sf_embarcadero_bar",
+  "name": "Embarcadero Sports Bar (illustrative)",
+  "category": "sports_bar",
+  "secondary_categories": [
+   "bar"
+  ],
+  "lat": 37.7935,
+  "lon": -122.396,
+  "neighborhood_id": "san_francisco_downtown",
+  "rating": 4.4,
+  "reviews": 720,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "11:00",
+    "close": "24:00"
+   },
+   "sat": {
+    "open": "11:00",
+    "close": "24:00"
+   },
+   "mon": {
+    "open": "11:00",
+    "close": "24:00"
+   },
+   "tue": {
+    "open": "11:00",
+    "close": "24:00"
+   },
+   "wed": {
+    "open": "11:00",
+    "close": "24:00"
+   },
+   "thu": {
+    "open": "11:00",
+    "close": "24:00"
+   },
+   "sun": {
+    "open": "11:00",
+    "close": "24:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_sf_embarcadero_bar",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [],
+   "contains_allergens": [
+    "wheat_gluten",
+    "soy",
+    "milk"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_oak_downtown_cafe",
+  "name": "Uptown Oakland Cafe (illustrative)",
+  "category": "cafe",
+  "secondary_categories": [
+   "coffee_shop"
+  ],
+  "lat": 37.8085,
+  "lon": -122.268,
+  "neighborhood_id": "oakland_downtown",
+  "rating": 4.5,
+  "reviews": 430,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "sat": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "mon": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "tue": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "wed": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "thu": {
+    "open": "07:00",
+    "close": "20:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "20:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_oak_downtown_cafe",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian",
+    "vegan"
+   ],
+   "contains_allergens": [
+    "milk",
+    "soy",
+    "wheat_gluten",
+    "eggs"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ },
+ {
+  "_id": "biz_berkeley_deli",
+  "name": "Shattuck Avenue Deli (illustrative)",
+  "category": "sandwich_shop",
+  "secondary_categories": [
+   "deli"
+  ],
+  "lat": 37.869,
+  "lon": -122.268,
+  "neighborhood_id": "berkeley_downtown",
+  "rating": 4.6,
+  "reviews": 520,
+  "price_level": 2,
+  "hours": {
+   "fri": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "sat": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "mon": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "tue": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "wed": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "thu": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "sun": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "gbp": {
+   "has_menu_link": true,
+   "has_reservation_link": false,
+   "photos": 12,
+   "attributes": [
+    "takeout"
+   ],
+   "missing": [
+    "special_hours"
+   ]
+  },
+  "website": "https://example.com/biz_berkeley_deli",
+  "chain": false,
+  "local_tags": [],
+  "languages_supported": [
+   "en"
+  ],
+  "business_status": "operational",
+  "verification_status": "needs_verification",
+  "food": {
+   "diet_options": [
+    "vegetarian",
+    "vegan"
+   ],
+   "contains_allergens": [
+    "wheat_gluten",
+    "milk",
+    "soy",
+    "tree_nuts"
+   ],
+   "allergen_verified_safe": [],
+   "cross_contact": "unknown",
+   "info_status": "unverified"
+  },
+  "owner_uid": null,
+  "source": "seed_illustrative",
+  "data_freshness": "seed"
+ }
+]

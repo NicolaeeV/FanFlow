@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "smm_wc26_mex_ksa_2026-06-27",
+    "city_id": "bay_area",
+    "event_id": "wc26_mex_ksa_2026-06-27",
+    "country_mix": [
+      { "country": "us", "share": 0.54 },
+      { "country": "mx", "share": 0.30 },
+      { "country": "sa", "share": 0.04 },
+      { "country": "other", "share": 0.12 }
+    ],
+    "language_mix": [
+      { "lang": "en", "share": 0.54 },
+      { "lang": "es", "share": 0.41 },
+      { "lang": "ar", "share": 0.03 },
+      { "lang": "other", "share": 0.02 }
+    ],
+    "party_mix": { "solo": 0.10, "couple": 0.20, "family": 0.42, "group": 0.28 },
+    "k_min": 50,
+    "confidence": 0.71,
+    "basis": "AGGREGATE model only. Blends NTTO Mexico country profile + large Bay Area Spanish-speaking population (Census ACS, language not ethnicity) + FIFA ticket-demand report. The 41% Spanish language share is an operational language signal, NOT a claim about any individual's nationality or ethnicity.",
+    "privacy_note": "country_mix and language_mix are neighborhood-time aggregates above k_min. Never resolve to an individual. Never infer ethnicity."
+  },
+  {
+    "_id": "smm_wc26_bra_cmr_2026-06-23",
+    "city_id": "bay_area",
+    "event_id": "wc26_bra_cmr_2026-06-23",
+    "country_mix": [
+      { "country": "us", "share": 0.58 },
+      { "country": "br", "share": 0.22 },
+      { "country": "cm", "share": 0.03 },
+      { "country": "other", "share": 0.17 }
+    ],
+    "language_mix": [
+      { "lang": "en", "share": 0.60 },
+      { "lang": "pt", "share": 0.24 },
+      { "lang": "es", "share": 0.10 },
+      { "lang": "other", "share": 0.06 }
+    ],
+    "party_mix": { "solo": 0.14, "couple": 0.26, "family": 0.30, "group": 0.30 },
+    "k_min": 50,
+    "confidence": 0.66,
+    "basis": "AGGREGATE model only. NTTO Brazil country profile + FIFA ticket-demand report. Portuguese share is a language/operational signal, not ethnicity or individual nationality.",
+    "privacy_note": "Aggregate neighborhood-time only, above k_min. Never resolve to an individual."
+  }
+]

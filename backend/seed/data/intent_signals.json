@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "signals_biz_sofa_taqueria_wc26_mex_ksa_2026-06-27",
+    "business_id": "biz_sofa_taqueria",
+    "event_id": "wc26_mex_ksa_2026-06-27",
+    "window_label": "16:00-22:00 match window vs normal Friday",
+    "baseline": { "sessions": 80, "menu_clicks": 12, "direction_clicks": 3, "call_clicks": 2, "reservation_clicks": 1, "es_session_ratio": 0.08 },
+    "match_window": { "sessions": 240, "menu_clicks": 64, "direction_clicks": 28, "call_clicks": 9, "reservation_clicks": 6, "es_session_ratio": 0.39 },
+    "trends": { "comida cerca del estadio": 74, "tacos near levis stadium": 68, "late night food san jose": 58, "world cup watch party san jose": 67, "parking near levis stadium": 81, "best local taqueria san jose": 41 },
+    "gbp": { "website_clicks_delta_pct": 180, "call_clicks_delta_pct": 220, "direction_requests_delta_pct": 300 },
+    "source": "SEEDED illustrative GA4 + GBP + Trends deltas (aggregate, no individuals). Real values require owner-connected GA4/GBP OAuth."
+  },
+  {
+    "_id": "signals_biz_calle_cafe_wc26_mex_ksa_2026-06-27",
+    "business_id": "biz_calle_cafe",
+    "event_id": "wc26_mex_ksa_2026-06-27",
+    "window_label": "16:00-22:00 match window vs normal Friday",
+    "baseline": { "sessions": 50, "menu_clicks": 8, "direction_clicks": 2, "call_clicks": 1, "reservation_clicks": 0, "es_session_ratio": 0.10 },
+    "match_window": { "sessions": 66, "menu_clicks": 11, "direction_clicks": 3, "call_clicks": 1, "reservation_clicks": 0, "es_session_ratio": 0.17 },
+    "trends": { "coffee near santa clara": 33, "pan dulce san jose": 28 },
+    "gbp": { "website_clicks_delta_pct": 28, "call_clicks_delta_pct": 10, "direction_requests_delta_pct": 35 },
+    "source": "SEEDED illustrative deltas — a café that closes at 18:00 sees only a weak signal (it misses the evening match window), demonstrating low-confidence, honest output."
+  }
+]

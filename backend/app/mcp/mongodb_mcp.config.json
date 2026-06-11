@@ -1,0 +1,14 @@
+{
+  "_comment": "Standalone MongoDB MCP server config (e.g. for `adk web`, Claude Desktop, or any MCP client). The agent in agent.py launches the same server programmatically. Real connection string comes from Secret Manager / env, never commit it.",
+  "mcpServers": {
+    "mongodb": {
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server"],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "${MONGODB_URI}",
+        "MDB_MCP_DEFAULT_DATABASE": "matchday_local",
+        "MDB_MCP_READ_ONLY": "true"
+      }
+    }
+  }
+}

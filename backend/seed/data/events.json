@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "wc26_mex_ksa_2026-06-27",
+    "competition": "FIFA World Cup 2026",
+    "team_home": "MEX",
+    "team_away": "KSA",
+    "team_home_name": "Mexico",
+    "team_away_name": "Saudi Arabia",
+    "kickoff_local": "2026-06-27T18:00:00-07:00",
+    "kickoff_utc": "2026-06-28T01:00:00Z",
+    "venue_id": "levis_stadium",
+    "venue_name": "Levi's Stadium",
+    "venue_address": "4900 Marie P DeBartolo Way, Santa Clara, CA 95054",
+    "venue_lat": 37.4033,
+    "venue_lon": -121.9694,
+    "city_id": "bay_area",
+    "neighborhood_ids": ["santa_clara_central", "downtown_san_jose", "santana_row"],
+    "fan_festival_ids": ["sj_plaza_de_cesar_chavez_fanfest"],
+    "marquee_score": 0.92,
+    "note": "ILLUSTRATIVE fixture for the hackathon demo. Replace team_away/date with the official FIFA Levi's Stadium (San Francisco Bay Area) schedule before any real use.",
+    "ancillary": {
+      "onsale_status": "onsale",
+      "price_min": 105,
+      "price_max": 540,
+      "currency": "USD"
+    }
+  },
+  {
+    "_id": "wc26_bra_cmr_2026-06-23",
+    "competition": "FIFA World Cup 2026",
+    "team_home": "BRA",
+    "team_away": "CMR",
+    "team_home_name": "Brazil",
+    "team_away_name": "Cameroon",
+    "kickoff_local": "2026-06-23T15:00:00-07:00",
+    "kickoff_utc": "2026-06-23T22:00:00Z",
+    "venue_id": "levis_stadium",
+    "venue_name": "Levi's Stadium",
+    "venue_address": "4900 Marie P DeBartolo Way, Santa Clara, CA 95054",
+    "venue_lat": 37.4033,
+    "venue_lon": -121.9694,
+    "city_id": "bay_area",
+    "neighborhood_ids": ["santa_clara_central", "downtown_san_jose", "santana_row"],
+    "fan_festival_ids": ["sj_plaza_de_cesar_chavez_fanfest"],
+    "marquee_score": 0.85,
+    "note": "ILLUSTRATIVE fixture for the hackathon demo. Replace with official FIFA fixture before real use.",
+    "ancillary": {
+      "onsale_status": "onsale",
+      "price_min": 120,
+      "price_max": 610,
+      "currency": "USD"
+    }
+  }
+]
