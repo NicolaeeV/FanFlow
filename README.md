@@ -1,7 +1,7 @@
 **Why it's not just Google Maps**
 
 
-Google Maps ranks local results largely by prominence, which is heavily review-count driven (Google dropped Bayesian smoothing in 2017). So a chain with thousands of reviews structurally outranks a beloved 34-review taqueria — even at a worse star score. FanFlow re-ranks on three signals Maps doesn't:
+Google Maps ranks local results largely by prominence, which is heavily review-count driven. So a chain with thousands of reviews structurally outranks a beloved 34-review taqueria — even at a worse star score. FanFlow re-ranks on three signals Maps doesn't:
 
 **1. Bayesian rating — trusts a score in proportion to evidence:**
 
